@@ -10,7 +10,7 @@ simulations.
 
 The minimal requirements are three points of the glider's polar together with the associated weight.
 
-"Coding and Soaring" is a series of Jupyter notebooks that demonstrate the use of glidepy and to analyze various 
+"Coding and Soaring" is a series of Jupyter notebooks that demonstrate the use of glidepy and how to analyze various 
 aspects of sailplane performance in a documented and reproducible fashion.
 
 These are the notebooks currently available:
