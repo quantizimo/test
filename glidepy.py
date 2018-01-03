@@ -7,6 +7,7 @@ from scipy.optimize import minimize
 import matplotlib
 import warnings
 
+
 class Glider:
 
     def __init__(self, speeds, sink_rates, weight_ref, weight=None):
