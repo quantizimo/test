@@ -93,11 +93,8 @@ class Glider:
 
     def get_range(self, altitude, speed):
         sink_rate = self.polar(speed)
-        if sink_rate >= 0:
-            range1 = float("inf")
-        else:
-            glide_time = altitude/self.nm_to_feet/(-sink_rate)
-            range1 = speed * glide_time
+        glide_time = altitude/self.nm_to_feet/(-sink_rate)
+        range1 = speed * glide_time
         return range1
 
     def set_altitude(self, altitude):
